@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100dvh;
+    background: #2b1169;
+}
+section{
+    width: 100%;
+    height: 40%;
+    background: #810996;
+    /* background-image: url('../img/notebook.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 260%;
+    background-position-x: 40%;
+    border-radius: 0 0 100px 100px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-top: -30%;
+
+}
+nav{
+    width: 7%;
+    height: 3vh;
+    /* background: #5313F0; */
+    margin-left: 4%;
+    margin-top: 3vh;
+    float: left;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3vh;
+}
+#usuario{
+    width: 13%;
+    height: 6vh;
+    /* background: 5313F0; */
+    float: right;
+    margin-top: 3vh;
+    margin-right: 5%;
+    font-size: 6rem;
+    line-height: 5vh;
+    color: #fff;
+}
+h1{
+    width: 100%;
+    height: auto;
+    /* background: yellow; */
+    float: left;
+    padding-left: 5%;
+    padding-right: 40%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: 3rem;
+    margin-top: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+button{
+    width: 60%;
+    height: 5vh;
+    float: left;
+    margin-left: 20%;
+    background: #810996;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: 1.1rem;
+    text-transform: uppercase;
+    margin-top: 6vh;
+    border-radius: 25px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.0rem;
+    border-radius: 20px;
+    padding-top: 15px;
+}
