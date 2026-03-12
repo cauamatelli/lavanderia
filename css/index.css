@@ -41,7 +41,7 @@ h1{
 
 h2{
     text-align: center; /* centraliza o texto */
-    margin-top: 50px; /* distância do topo */
+    margin-top: 30px; /* distância do topo */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
     font-weight: bold; /* deixa texto em negrito */
     color: #fff; /* cor branca */
@@ -55,13 +55,14 @@ div{
     float: left; /* posiciona elementos lado a lado */
     margin-left: 20px; /* espaço à esquerda */
     margin-right: 20px; /* espaço à direita */
-    margin-top: 50px; /* espaço acima */
+    margin-top: 20px; /* espaço acima */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
     text-align: center; /* centraliza texto */
     font-weight: bold; /* texto em negrito */
     font-size: 1rem; /* tamanho da fonte */
     border-radius: 20px; /* bordas arredondadas */
     padding-top: 15px; /* espaço interno no topo */
+    box-shadow: 5px 5px 5px #00000069;
 }
 
 /* botao de acompanhamento */
@@ -80,13 +81,15 @@ div{
     border: none;
     padding-left: 1% ;
     padding-right: 1%;
+    box-shadow: 5px 5px 5px #00000069;
+    border: none;
 }
 
 /* barra superior */
 header{
     height: 70px; /* altura da barra */
     width: 100%; /* largura total */
-    background: #ffffff; /* fundo branco */
+    background: #a60aff; /* fundo branco */
     display: flex; /* ativa layout flexbox */
     justify-content: space-between; /* coloca elementos nas extremidades */
     align-items: center; /* alinha verticalmente no centro */
@@ -108,4 +111,14 @@ header h3{
     font-weight: bold; /* negrito */
     color: #fff; /* cor branca */
     text-shadow: 2px 2px 4px #000; /* sombra no texto */
+}
+.fth2{
+    text-align: center; /* centraliza o texto */
+    margin-top: 135px; /* distância do topo */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    font-weight: bold; /* deixa texto em negrito */
+    color: #fff; /* cor branca */
+    text-shadow: 2px 2px 4px #000; /* sombra no texto */
+    font-size: 1.5rem;
+
 }
